@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    color: #ecf0f1;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: 'Cinzel', serif; /* Use a thematic font for headings */
+    color: #f39c12;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #f39c12;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+button {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
